@@ -1,0 +1,50 @@
+/**
+ * AI Schema Generator — Admin Styles
+ */
+
+.wasg-card { background:#fff; padding:25px; border:1px solid #e0e0e0; border-radius:6px; max-width:850px; }
+.wasg-card h2 { margin-top:0; padding-bottom:12px; border-bottom:1px solid #eee; }
+
+.wasg-stats-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:15px; margin:20px 0; }
+.wasg-stat-card { background:#fff; border:1px solid #e0e0e0; border-left:4px solid #ccc; padding:20px; text-align:center; border-radius:4px; }
+.wasg-stat-card:hover { box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.wasg-stat-total   { border-left-color:#007bff; }
+.wasg-stat-has     { border-left-color:#28a745; }
+.wasg-stat-missing { border-left-color:#dc3545; }
+.wasg-stat-number  { display:block; font-size:36px; font-weight:700; color:#1d2327; }
+.wasg-stat-label   { display:block; margin-top:8px; color:#666; font-size:13px; }
+
+.wasg-badge { display:inline-block; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:600; }
+.wasg-badge-green  { background:#d4edda; color:#155724; }
+.wasg-badge-red    { background:#f8d7da; color:#721c24; }
+.wasg-badge-blue   { background:#d1ecf1; color:#0c5460; }
+.wasg-badge-yellow { background:#fff3cd; color:#856404; }
+
+.wasg-progress-track { width:100%; height:20px; background:#e9ecef; border-radius:10px; overflow:hidden; margin:10px 0 5px; }
+.wasg-progress-fill  { height:100%; background:linear-gradient(90deg,#007bff,#28a745); border-radius:10px; transition:width 0.4s; width:0%; }
+
+.wasg-scanner-controls { margin:20px 0; display:flex; align-items:center; gap:15px; }
+.wasg-status-text { color:#666; font-style:italic; }
+
+.wasg-bulk-actions { margin:15px 0; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+
+.wasg-type-bar { display:flex; align-items:center; gap:10px; margin:5px 0; }
+.wasg-type-label { min-width:140px; font-size:13px; }
+.wasg-type-count { font-weight:700; font-size:14px; min-width:30px; text-align:right; }
+.wasg-type-fill  { height:20px; border-radius:4px; background:#007bff; min-width:4px; transition:width 0.3s; }
+
+.wasg-provider-config { margin-top:15px; padding:15px; background:#f9f9f9; border:1px solid #e0e0e0; border-radius:4px; }
+.wasg-provider-config h3 { margin-top:0; }
+.wasg-test-result { margin-left:10px; font-weight:600; }
+
+/* Meta Box */
+#wasg-metabox .wasg-notice { background:#fff8e1; padding:10px 12px; border-left:3px solid #ffc107; margin:0; font-size:13px; }
+.wasg-active-schema { background:#e8f5e9; padding:12px; border-radius:4px; margin-bottom:8px; }
+.wasg-active-schema p { margin:0 0 8px; }
+
+tr.wasg-row-done { background-color:#e8f5e9 !important; }
+
+@media screen and (max-width:782px) {
+    .wasg-stats-grid { grid-template-columns:1fr; }
+    .wasg-bulk-actions { flex-direction:column; align-items:flex-start; }
+}
